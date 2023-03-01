@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    background: linear-gradient( #E63946 , #457B9D );
+    color: #F1FAEE;
+}
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h4 {
+    text-shadow: 0 0 1px black;
+}
+#b-date {
+    margin: 0;
+}
+#b-age , #b-date {
+    background: #1D3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#nick {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #1D3557;
+}
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title {
+    margin-bottom: 30px;
+}
+.gift-hint {
+    margin-top: 0;
+}
+#gift-img-cheer {
+    height: 250px;
+    
+}
+.gift-img {
+    width: 400px;
+    height: 400px;
+    border: 6px solid #1D3557;
+    border-radius: 10px;
+    background: #FFAFCC;
+    background-image: url("images/gift.png");
+    background-size: cover;
+    margin: 0px auto;
+}
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+#gift-img-hot {
+    width: 500px;
+}
+#gift-img-hot:hover {
+   background-image: url("images/myking.gif");
+
+}
+#gift-img-describe:hover {
+    background-image: url("images/king.gif");
+}
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif")
+}
+
+#gift-img-cheer:hover {
+    background-image: url("images/cheer.gif");
+    background-size: 350px;
+}
+
+#footer {
+    width: 400px;
+    font-style: italic;
+    margin: 40px auto 20px;
+}
+a {
+    color: white;
+}
